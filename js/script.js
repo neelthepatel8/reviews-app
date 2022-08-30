@@ -1,3 +1,5 @@
+const reviewsPage = (() => {
+
 const people = [
     {
         name: "Adam Levine",
@@ -83,3 +85,5 @@ function changeReview(){
     currJob.textContent = person.job;
     currText.textContent = person.review;
 }
+
+})();
